@@ -64,7 +64,7 @@ function setup() {
   goal = Bodies.rectangle(890,200,20,200)
   World.add(world,ball);
 
-  slingShot1 = new slingshot(this.ball,{x:200,y:200});
+  slingShot1 = new slingShot(this.ball,{x:200,y:200});
 
 }
 
