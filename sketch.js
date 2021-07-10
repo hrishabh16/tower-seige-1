@@ -58,13 +58,13 @@ function setup() {
    
    b9 = new Block(710,95,30,40)
  
-
+   slingShot1 = new slingShot(this.ball,{x:200,y:200});
   //ball  with slings
   ball = Bodies.circle(50,200,20);
   goal = Bodies.rectangle(890,200,20,200)
   World.add(world,ball);
 
-  slingShot1 = new slingShot(this.ball,{x:200,y:200});
+ 
 
 }
 
